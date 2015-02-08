@@ -6,14 +6,15 @@ $(document).on('online', function(){
     window.open('http://www.google.com.mx', '_system');
     ban = 1;
   }
-  function alert(txt, title) {
+});
+function alert(txt, title) {
     try {
         jAlert(txt, title);
     } catch (e) {
         oAlert(txt);
     }
-  };
-});
+};
+
 // Evento offline
 $(document).on('offline', function(){ 
   if (ban === 0) {
