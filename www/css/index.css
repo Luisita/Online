@@ -24,10 +24,10 @@ body {
     -webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
     -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
     -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
-    background-color:#E4E4E4;
-    background-image:linear-gradient(top, #A7A7A7 0%, #E4E4E4 51%);
-    background-image:-webkit-linear-gradient(top, #A7A7A7 0%, #E4E4E4 51%);
-    background-image:-ms-linear-gradient(top, #A7A7A7 0%, #E4E4E4 51%);
+    background-color:#00cccc;
+    background-image:linear-gradient(top, #A7A7A7 0%, #00cccc 51%);
+    background-image:-webkit-linear-gradient(top, #A7A7A7 0%, #00cccc 51%);
+    background-image:-ms-linear-gradient(top, #A7A7A7 0%, #00cccc 51%);
     background-image:-webkit-gradient(
         linear,
         left top,
@@ -116,7 +116,7 @@ h1 {
 }
 /* Definimos un icono */
 #header{
-    background-color: #43CEE6;
+    background-color: #3b5998;
     color: white;
 }
 #btnM{
@@ -147,7 +147,7 @@ h1 {
     font-size: 0.8em;
 }
 #controles {
-    background-color: #43CEE6;
+    background-color: #3b5998;
 }
 #pausa, #parar, #reanudar {
     font-family: "Helvetica Neue";
@@ -182,9 +182,6 @@ h1 {
             font-family: "Helvetica Neue";
             font-weight: 1px;
         }
-        /*#index{
-            background: white url(../img/fondo.jpg) no-repeat fixed;
-        }*/
         /* Definimos tipografía a ocupar */
         @font-face{
             font-family: "miFuente";
